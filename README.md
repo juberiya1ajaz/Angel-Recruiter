@@ -1,6 +1,8 @@
 # Angle Recruiter
 
 ## 💡 Inspiration
+For people in their 3rd or 4th year of college with the internship or placement season around the corner. Students are already worried about how are they going to brush up their skills, is their resumes good enough, and how to contact top qualified people from which they can ask about their dream company and the skillset required to ace that company.  To solve and lessen the burden of college students we came up with the ** ANGEL RECRUITER**. Most of the bugging problems that college students like us face are whether our skill set matches this position or not and in surfing all these we waste a lot of our time. On our website, you can search for the job according to your resume. There is a special application tracker as well where you can keep a track of every job position you applied to.
+With this application, we hope to reduce the burden on all college students around the globe.
 
 ## 💻 What it does
 
