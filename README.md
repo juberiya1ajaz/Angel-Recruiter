@@ -26,7 +26,7 @@ Angle Recruiter is your one stop solution to all your job problems. I features u
 
 ## 🔐 Best Blockchain Project Using Hedera
 
-We are using **Hedera’s testnet** to make a make a **decentralized chatroom** for patients and doctors, so that they can chat analmously and chat freely . Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
+We are using **Hedera’s testnet** to make a make a **decentralized chatroom** for Recruiter and Job-seeker, so that they can chat analmously and chat freely . Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
 
 ## 🧠 Challenges we ran into
 
