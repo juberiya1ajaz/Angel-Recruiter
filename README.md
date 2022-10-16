@@ -6,12 +6,12 @@ With this application, we hope to reduce the burden on all college students arou
 
 ## 💻 What it does
 
-Angle Recruiter is your one stop solution to all your job problems. I features unique capabilities such as -
+Angle Recruiter is your one-stop solution to all your job problems. It features unique capabilities such as 
 
-- **Resume based job search** - Just upload your resume and our state of the art ML model will extract relevant details from it and show you jobs based on your skillset.
-- **Application Tracker** - Ever been in a position where you recieve an interview mail but have no idea when you applied for the job or what were the key requirements for it? Well say goodbye to those moments because now you can track all you applications at one place and track details like Job Description, **add more things**.
-- **Linkedin Analyzer** - We all know how important Linkedin is for job search but how many of us actually know how to use it to its full potential? Well now you can use our Linkedin Analyzer to get insights about your profile and how to improve it. It will also show the First Name, Last Name, Email Address, Company Position, Email Address of the person you are hace to connect with, so that you can directly send them a mail for refral or to ask for a job.
-- **Chat Room** - In the chatroom you can discuss your job search problems with other users and get their advice. You can also ask for help from our team of experts and get your doubts cleared. And if you find a user who is really helpful, you can give them a ETH tip for their help.
+- **Resume-based job search** - Just upload your resume and our state-of-the-art ML model will extract relevant details from it and show you jobs based on your skill set.
+- **Application Tracker** - Ever been in a position where you received an interview mail but have no idea when you applied for the job or what were the key requirements for it? Well, say goodbye to those moments because now you can track all your applications in one place and track details like Job Descriptions, **add more things**.
+- **Linkedin Analyzer** - We all know how important Linkedin is for job search but how many of us actually know how to use it to its full potential? Well, now you can use our Linkedin Analyzer to get insights about your profile and how to improve it. It will also show the First Name, Last Name, Email Address, Company Position, and Email Address of the person you have to connect with so that you can directly send them a mail for a referral or to ask for a job.
+- **Chat Room** - In the chatroom, you can discuss your job search problems with other users and get their advice. You can also ask for help from our team of experts and get your doubts cleared. And if you find a user who is really helpful, you can give them an ETH tip for their help.
 
 ## ⚙️ How we built it
 
@@ -26,16 +26,16 @@ Angle Recruiter is your one stop solution to all your job problems. I features u
 
 ## 🔐 Best Blockchain Project Using Hedera
 
-We are using **Hedera’s testnet** to make a make a **decentralized chatroom** for Recruiter and Job-seeker, so that they can chat analmously and chat freely . Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
+We are using **Hedera’s testnet** to make a make **decentralized chatroom** for Recruiters and Job-Seekers especially students so that they can chat anonymously and chat freely. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
 
 ## 🧠 Challenges we ran into
 
-- Completing the project under the given time frame.
+- Completing the project within the given time frame.
 - Implementing the blockchain in the project.
 
 ## 🏅 Accomplishments that we're proud of
 
-- Completing the project under the given time frame.
+- Completing the project within the given time frame.
 - Implementing the smart contract in the project.
 
 ## 📖 What we learned
