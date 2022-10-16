@@ -3,40 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatroom | Angle Recruiter</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Opportunity | Angle Recruiter</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
-
 </head>
 
 <body>
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: "Poppins", sans-serif;
-            text-decoration: none;
-            outline: none;
-            border: none;
-            text-transform: capitalize;
-            transition: all 0.2s linear;
-        }
-
-        html {
-            font-size: 62.5%;
-            overflow-x: hidden;
         }
 
         .sidebar {
@@ -45,7 +27,7 @@
             top: 0;
             height: 100%;
             width: 78px;
-            background: #11101D;
+            background: #11101d;
             padding: 6px 14px;
             z-index: 99;
             transition: all 0.5s ease;
@@ -155,11 +137,11 @@
             align-items: center;
             text-decoration: none;
             transition: all 0.4s ease;
-            background: #11101D;
+            background: #11101d;
         }
 
         .sidebar li a:hover {
-            background: #FFF;
+            background: #fff;
         }
 
         .sidebar li a .links_name {
@@ -180,7 +162,7 @@
         .sidebar li a:hover .links_name,
         .sidebar li a:hover i {
             transition: all 0.5s ease;
-            color: #11101D;
+            color: #11101d;
         }
 
         .sidebar li i {
@@ -222,7 +204,7 @@
 
         .home-section {
             position: relative;
-            background: #E4E9F7;
+            background: #e4e9f7;
             min-height: 100vh;
             top: 0;
             left: 78px;
@@ -241,7 +223,7 @@
             color: #11101d;
             font-size: 25px;
             font-weight: 500;
-            margin: 18px
+            margin: 18px;
         }
 
         @media (max-width: 420px) {
@@ -250,38 +232,82 @@
             }
         }
 
-        .home {
-            position: relative;
-            /* position: absolute; */
-            background: #E4E9F7;
-            min-height: 100vh;
-            top: 0;
-            left: 78px;
-            width: calc(100% - 78px);
-            transition: all 0.5s ease;
-            z-index: 2;
+        section {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
         }
 
-        .hero_heading{
+        .heading {
+            width: 100%;
             display: grid;
             place-items: center;
-            font-size: 32px;
-            padding-top: 15px;
+            font-size: 45px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
-        .wallet-connect-button{
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            color: #fff;
-            background-color: #1d1b31;
-            font-size: 2rem;
-            padding: 5px 10px;
-            border-radius: 5px;
-            cursor: pointer;
+        .sub__heading {
+            display: grid;
+            place-items: center;
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .cards-list {
+            z-index: 0;
+            padding-left: 80px;
+            padding-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding-bottom: 50px;
+        }
+
+        .card {
+            margin: 30px 4px;
+            width: 300px;
+            height: 345px;
+            border-radius: 40px;
+            box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+            transition: 0.4s;
+        }
+
+        .card .card-image {
+            width: inherit;
+            height: inherit;
+            border-radius: 40px;
+            padding: 50px;
+        }
+
+        .card .card-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 40px;
+            object-fit: cover;
+        }
+
+        .card .card-title {
+            text-align: center;
+            border-radius: 0px 0px 40px 40px;
+            font-size: 30px;
+            font-family: 'Source Serif Pro', serif;
+            font-weight: 600;
+            margin-top: -50px;
+        }
+
+        .card:hover {
+            box-shadow: 5px 5px 30px 15px rgba(37, 36, 36, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+        }
+
+        .title-black {
+            color: black;
+            font-weight: bolder;
         }
     </style>
-
     <div class="sidebar">
         <div class="logo-details">
             <div class="logo_name">Angle Recruiter</div>
@@ -339,40 +365,119 @@
             </li>
         </ul>
     </div>
+    <div class="heading">Opportunity</div>
+    <div class="sub__heading">Explore various job opportunities around for diversity hiring</div>
 
-    <section class="home" id="home">
+    <div class="cards-list">
 
-        <h1 class="hero_heading">Chatroom</h1>
+        <a href="https://careers.microsoft.com/" target="blank" style="text-decoration: none;">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../media/Microsoft.png" alt="">
+                </div>
+                <div class="card-title title-black">
+                    <p>Microsoft</p>
+                </div>
+            </div>
+        </a>
 
-        <iframe src="http://localhost:5000/" width="1450px" height="720px" style="border: none;"></iframe>
-    </section>
+        <a href="https://www.amazon.jobs/search-jobcategory" target="blank" style="text-decoration: none;">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../media/Amazon.png" alt="">
+                </div>
+                <div class="card-title title-black">
+                    <p>Amazon</p>
+                </div>
+            </div>
+        </a>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <a href="https://www.facebook.com/careers/locations/bangalore/?p[offices][0]=Bangalore%2C%20India&offices[0]=Bangalore%2C%20India"
+            target="blank" style="text-decoration: none;">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../media/Facebook.png" alt="">
+                </div>
+                <div class="card-title title-black">
+                    <p>Facebook</p>
+                </div>
+            </div>
+        </a>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <a href="https://jobs.apple.com/en-in/search?location=india-INDC&page=2" target="blank"
+            style="text-decoration: none;">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../media/Apple.png" alt="">
+                </div>
+                <div class="card-title title-black">
+                    <p>Amazon</p>
+                </div>
+            </div>
+        </a>
 
-    <script>
+        <a href="https://careers.google.com/" target="blank" style="text-decoration: none;">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../media/Google.png" alt="">
+                </div>
+                <div class="card-title title-black">
+                    <p>Google</p>
+                </div>
+            </div>
+        </a>
 
-        AOS.init({
-            delay: 400,
-            duration: 1000
-        })
+        <a href="https://careers.linkedin.com/" target="blank" style="text-decoration: none;">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../media/Linkedin.png" alt="">
+                </div>
+                <div class="card-title title-black">
+                    <p>Linkedin</p>
+                </div>
+            </div>
+        </a>
 
-    </script>
+        <a href="https://jobs.netflix.com/" target="blank" style="text-decoration: none;">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../media/Netflix.png" alt="">
+                </div>
+                <div class="card-title title-black">
+                    <p>Netflix</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://careers.twitter.com/" target="blank" style="text-decoration: none;">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../media/Twitter.png" alt="">
+                </div>
+                <div class="card-title title-black">
+                    <p>Twitter</p>
+                </div>
+            </div>
+        </a>
+
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.1/src/js.cookie.min.js"></script>
 
     <script>
         function imgsplit() {
-            $("#splitform").append("<input type = 'file' name = 'myfile' id='myfile'>")
-            $("#mos").val('1');
-            $("#myfile").attr('value', '1')
-
+            $("#splitform").append(
+                "<input type = 'file' name = 'myfile' id='myfile'>"
+            );
+            $("#mos").val("1");
+            $("#myfile").attr("value", "1");
         }
         function ammsplit() {
-            $("#splitform").append('<input type="text" placeholder="Amount of bill" name="ammount">')
-            $("#mos").attr('value', '2');
+            $("#splitform").append(
+                '<input type="text" placeholder="Amount of bill" name="ammount">'
+            );
+            $("#mos").attr("value", "2");
         }
         let sidebar = document.querySelector(".sidebar");
         let closeBtn = document.querySelector("#btn");
@@ -388,13 +493,8 @@
             menuBtnChange();
         });
 
-        console.log(Cookies.get('csrftoken'));
-
+        console.log(Cookies.get("csrftoken"));
     </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
-   
-
 </body>
 
 </html>
